@@ -1,0 +1,13 @@
+{
+  "users": [
+    { "id": 1, "name": "Nitish Sharma", "likes": 1 },
+    { "id": 2, "name": "GUlati", "likes": 23 },
+    { "id": 3, "name": "Suresh", "likes": 444 }
+  ]
+  ,
+  "products": [
+    { "id": 1, "name": "Iphone" },
+    { "id": 2, "name": "Bag" },
+    { "id": 3, "name": "Shoes" }
+  ]
+}

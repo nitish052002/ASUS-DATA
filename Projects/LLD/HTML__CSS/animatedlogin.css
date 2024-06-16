@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form {
+  width: 360px;
+  padding: 0 2rem;
+}
+
+.avatar {
+  width: 100px;
+}
+
+form h2 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 15px 0;
+  color: #333;
+}
+.input-field {
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.input-field::after,
+.input-field::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  transition: 0.3s;
+
+  background-color: #38d39f;
+}
+
+.input-field::before {
+  right: 50%;
+}
+
+.input-field::after {
+  left: 50%;
+}
+.input-field.focus .i i {
+  color: #38d39f;
+  transition: 0.3s;
+}
+
+.input-field.focus div h5 {
+  top: -5px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.input-field.one {
+  margin-top: 0;
+}
+
+.input-field.two {
+  margin-bottom: 4px;
+}
+
+.i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i i {
+  color: #d9d9d9;
+}
+
+.input-field > div {
+  position: relative;
+  height: 45px;
+}
+
+.input-field > div h5 {
+  position: absolute;
+  left: 50px;
+  top: 30%;
+  transform: translate(-50%);
+  color: #999;
+  font-size: 18px;
+  transition: 0.3px;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: #555;
+}
+
+.a {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3;
+  text-align: right;
+  display: block;
+  color: #999;
+}
+
+a::before   {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid #38d39f;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+}
+
+ 
+
+a:hover {
+  color: #38d39f;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  cursor: pointer;
+  text-transform: uppercase;
+  background-size: 200%;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-position: right;
+}

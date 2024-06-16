@@ -1,0 +1,127 @@
+.detail_sec .row {
+  display: flex;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.user_avatar {
+  width: 168px;
+  height: 168px;
+  display: flex;
+  justify: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #cacaca;
+  margin-bottom: 1.5rem;
+}
+.user_avatar  .round{
+  width: 100%;
+}
+.col-2,
+.col-1 {
+  text-align: left;
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_section .section-one .line-1 {
+  display: flex;
+  align-items: center;
+}
+
+.content_section .section-one .line-1,
+.content_section .section-one .line-2 {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.content_section .section-one .line-2 {
+  font-weight: 200;
+  color: grey;
+  padding-bottom: 2rem;
+}
+.content_section .section-one .line-2 span {
+  color: #2432ff;
+}
+.content_section .section-one .line-1 span i {
+  font-size: 21px;
+}
+
+.content_section .section-two .title {
+  color: grey;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-bottom: 8px;
+}
+
+.content_section .section-two .badge {
+  padding: 5px 4px;
+  background: #f0f7ff;
+  border-radius: 4px;
+  color: #2432ff;
+  font-weight: 600;
+  margin: 4px;
+  font-size: 9px;
+  text-wrap: nowrap;
+  position: relative;
+}
+
+.badge .tooltip {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  background: #8c8282;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: 0.2s;
+  display: none;
+  transform: scale(2px, 2px);
+}
+
+.badge.active .tooltip {
+  display: block;
+}
+
+.col-2 .repo-title {
+  font-size: 2.5rem;
+}
+
+.button-area button {
+  padding: 8px 30px;
+  background: #008f11;
+  border: 2px solid transparent;
+  outline: none;
+  border-radius: 4px;
+  color: white;
+  transition: 0.2s;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.button-area button:hover {
+  border: 2px solid green;
+}
+
+.bio-section {
+  font-size: 13px;
+}
+
+.bio-section .p1 span {
+  color: #2432ff;
+  font-weight: 800;
+}
+.bio-section .p1 {
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.bio-section .p2,
+.bio-section .p3,
+.bio-section .p4 {
+  line-height: 1rempx;
+  margin-bottom: 13px;
+}

@@ -1,0 +1,6 @@
+ .pages-section {
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+ }

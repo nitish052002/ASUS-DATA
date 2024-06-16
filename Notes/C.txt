@@ -1,0 +1,12 @@
+1. Procedure oriented programming - Drawbacks
+2. Object Oriented Programming 
+   - main focus on data
+   - binding the data to the function using it
+   - program divided in to objects : - data and functions
+   - a function of object cannot direcylty access data of another object
+   - protects data from accidental changes
+   
+=============================  CLASS  =================================
+1. fundamaental unit of OOP
+2. user defined data type
+3.    

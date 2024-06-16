@@ -1,0 +1,23 @@
+.title-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.repos_section .repo-list{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+}
+
+.title-section button {
+    background: #d6fec3;;
+    
+}
+
+.title-section button:hover {
+
+    background: #d6fec3;
+    filter: brightness(90%);
+    color: black;
+}
+
+ 

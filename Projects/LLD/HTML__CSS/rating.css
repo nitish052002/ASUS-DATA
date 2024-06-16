@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background-color: black;
+  text-align: center;
+}
+
+.rating-wrapper {
+  direction: rtl;
+}
+.rating-wrapper input {
+  display: none;
+}
+
+.rating-wrapper label {
+  display: inline-block;
+  width: 120px;
+  position: relative;
+  cursor: pointer;
+}
+
+.rating-wrapper label::before {
+  content: "\2605";
+  position: absolute;
+  font-size: 120px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+.rating-wrapper label::after {
+  content: "\2605";
+  position: absolute;
+  font-size: 120px;
+  display: inline-block;
+  top: 0px;
+  left: 0;
+  color: yellow;
+  opacity: 0;
+}
+.rating-wrapper label:hover:after,
+.rating-wrapper input:checked ~ label:after,
+.rating-wrapper label:hover ~ label:after {
+  opacity: 1;
+}

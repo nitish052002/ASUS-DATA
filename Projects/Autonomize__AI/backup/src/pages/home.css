@@ -1,0 +1,20 @@
+.home-section {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+  background: #ffffff;
+
+  transition: 0.2s ease-in-out;
+}
+
+.home-section .poster {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 9px;
+  filter: brightness(20%);
+}

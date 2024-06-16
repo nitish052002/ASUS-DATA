@@ -1,0 +1,49 @@
+.tile {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.tile:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
+.logo {
+  width: 61px;
+  height: 61px;
+  min-width: 61px;
+  border-radius: 50%;
+  border: 1px solid #cacaca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 13px;
+}
+img {
+  width: 100%;
+  /* height : 100% ; */
+}
+
+.content {
+  text-align: left;
+}
+.repo_title {
+  color: blue;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: poppins sen;
+}
+.check {
+  color: #42b31e;
+  margin: 0 3px;
+  font-size: 13px;
+}
+.desc {
+  font-size: 11px;
+  color: #aeaeae;
+  text-wrap: wrap;
+}

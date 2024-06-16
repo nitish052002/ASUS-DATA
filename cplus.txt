@@ -1,0 +1,6 @@
+We have 32 keywords in C++
+It was develop for adding a feature of OOP (Object Oriented Programming) in C without significantly changing the C component.
+OPERATOR - Binary , Ternary , Unary
+ variable that stores the memory address of another variable is known as a pointer
+ USER DEFINED DATA TYPES  - struct , classes ,enum
+ volatile denotes that a variable can be altered outside, but const makes a variable immuta
